@@ -8,7 +8,8 @@ Tato ukázková aplikace umožňuje vytvářet, upravovat a mazat poznámky s pr
 - Spuštění:
   1. docker compose build --pull
   2. docker compose up -d
-  3. Instalace závislostí: docker compose exec php composer install
+  3. Instalace závislostí: 
+     - docker compose exec php composer install
   4. Puštění migrace:
      - docker compose exec php php bin/console doctrine:migrations:migrate -n
   5. Aplikace poběží na: http://localhost:8080
